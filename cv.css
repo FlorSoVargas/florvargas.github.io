@@ -1,0 +1,82 @@
+
+header
+{
+    background-color: #003152;
+    display: flex;
+    justify-content: space-between;
+    min-height: 250px;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%; 
+    align-items: center;
+}
+body
+{
+    font-family: 'Inter:400', sans-serif;
+    background-color: #7285a5;
+}
+#foto_perfil 
+{ 
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    margin: 1%; 
+    float: right;
+}
+#datos_presentacion
+{
+    margin-left: 20%;
+  
+ 
+}
+#foto
+{
+    display: flex;
+    margin-right: 7%;
+}
+nav 
+{
+    display: flex;
+    background-color: #0E4D92;
+    min-height: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    
+}
+nav a
+{
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    font-weight: 600;
+}
+nav a:hover
+{
+    color: white;
+}
+@media (max-width:1100px)
+{
+    header
+   {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav
+   {
+        flex-direction: column;
+    }
+    #foto
+   {
+        display: flex;
+        margin-right: 0%;
+    }
+    #datos_presentacion
+   {
+    margin-left: 0%;
+   }    
+  
+   
+}  
