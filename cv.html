@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Argentina Programa</title>
     <link rel="stylesheet" type="text/css" href="cv.css"/>
-    <script src="cv.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
@@ -15,21 +15,31 @@
 </head>
 <body>
     <header>
+        <div id="menuu">
+            <button id ="boton" type="button">
+                <i class="fa-solid fa-circle-chevron-down"id="icon_boton"></i>
+            </button>
+            
+        </div>
         <div id="datos_presentacion">
+            
             <h1>Sean Nelson</h1>
             <h2>Desarrollador Front End</h2>
         </div>
         <div id="foto">
             <img src="https://randomuser.me/api/portraits/men/86.jpg" id="foto_perfil" >
         </div>
+
     </header>
-    <nav>
+   
+    <nav id="barranav">
+   
         <a href="#informacion_personal">Información Personal</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#experincia_laboral">Experiencia Laboral</a>
         <a href="#educacion">Educación</a>
         <a href="#idiomas">Idiomas</a></a>
-        
+
     </nav>
     <section class="informacion_cv" >
         <a name="informacion_personal">
@@ -84,17 +94,14 @@
     </section>
     <footer>
         <h3>Contactar</h3>
-        <button>
+        <button id="boton_wap">
             <i class="fa-brands fa-whatsapp"></i>
             <a href="https://web.whatsapp.com/">WhatsApp</a>
         </button>
         
 
     </footer>
-   
-        
-        
-
-    
+    <script src="cv.js"></script>
+     
 </body>
 </html>
