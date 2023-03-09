@@ -1,4 +1,5 @@
 let negro=false;
+
 document.getElementById("boton").onclick= 
 function()
 {
